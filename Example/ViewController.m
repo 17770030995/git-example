@@ -18,11 +18,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [self showTutorial];
+    [self showTutorial];// shhsshahjs
 }
 
 #pragma mark - Tutorial
 -(void) showTutorial{
+    
+    int a = 0;
     
     CGRect coachmark1 = CGRectMake(([UIScreen mainScreen].bounds.size.width - 125) / 2, 64, 125, 125);
     CGRect coachmark2 = CGRectMake(([UIScreen mainScreen].bounds.size.width - 300) / 2, coachmark1.origin.y + coachmark1.size.height, 300, 80);
